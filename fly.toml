@@ -1,13 +1,13 @@
-# fly.toml app configuration file generated for remix-jokes-demo-fly on 2023-05-21T17:52:43+07:00
+# fly.toml app configuration file generated for remix-jokes-demo on 2023-05-21T20:38:10+07:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "remix-jokes-demo-fly"
+app = "remix-jokes-demo"
 primary_region = "sin"
 
 [http_service]
-  internal_port = 8080
+  internal_port = 3000
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
