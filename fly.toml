@@ -12,3 +12,7 @@ primary_region = "sin"
   auto_stop_machines = true
   auto_start_machines = true
   min_machines_running = 0
+
+[experimental]
+  cmd = "start_with_migrations.sh"
+  entrypoint = "sh"
